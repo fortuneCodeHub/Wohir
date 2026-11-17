@@ -1,0 +1,86 @@
+# ── ENVIRONMENT AND SECRETS ──────────────────────────────────────────────────
+.env
+.env.local
+.env.production
+*.env
+
+# ── PYTHON ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# ── VIRTUAL ENVIRONMENT ───────────────────────────────────────────────────────
+bot_env/
+venv/
+env/
+ENV/
+.venv/
+
+# ── CHROME PROFILES AND SESSIONS ─────────────────────────────────────────────
+temp/
+temp/profiles/
+
+# ── GENERATED CVs ─────────────────────────────────────────────────────────────
+generated_cvs/
+
+# ── STATE AND AUDIT LOGS ──────────────────────────────────────────────────────
+state/applied_jobs.json
+
+# ── REPORTS ───────────────────────────────────────────────────────────────────
+reports/
+
+# ── ASSETS ────────────────────────────────────────────────────────────────────
+assets/
+
+# ── DOCUMENTATION CONTAINING SENSITIVE CONTEXT ───────────────────────────────
+ARCHITECTURE.md
+bot_orchestration/README.md
+
+# ── AD FRAUD COMPONENTS ───────────────────────────────────────────────────────
+test6.py
+competitors_urls.json
+test_cloudflare.py
+website_urls.json
+
+# ── CHROME EXTENSIONS ─────────────────────────────────────────────────────────
+login_gmail_selenium/extension/veepn/
+login_gmail_selenium/extension/fingerprint_defender/
+
+# ── CONFIG FILES WITH PERSONAL DATA ───────────────────────────────────────────
+config/agent_profile.json
+config/platform_sessions.json
+cf_test_profile/
+cf_session_cookies.pkl
+
+# ── LOGS ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── OS FILES ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE FILES ────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
