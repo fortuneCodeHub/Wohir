@@ -69,6 +69,7 @@ config/agent_profile.json
 config/platform_sessions.json
 cf_test_profile/
 cf_session_cookies.pkl
+downloaded_files/
 
 # ── LOGS ─────────────────────────────────────────────────────────────────────
 *.log
